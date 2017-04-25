@@ -6,7 +6,7 @@ loadMacros(
   "MathObjects.pl",
   "PGunion.pl",
   "alignedChoice.pl",
-  "../parserOrientation.pl",
+  "parserOrientation.pl",
   "PGcourse.pl",
 );
 
@@ -32,7 +32,7 @@ It matters what letter you use.  For example, if you are asked for a
 function using the variable \(x\), then it won't work to enter the
 function with the variable \(t\). Also, $WW considers upper- and
 lower-case letters to be different, so don't use the capital letter
-\{student "X"\} in place of the lower-case letter \{student "x"\}. 
+\{student "X"\} in place of the lower-case letter \{student "x"\}.
 The following blank is expecting the
 function \(x^3\), which you would enter as \{student "x${CARET}3"\} or
 \{student "x**3"\}.  Instead, try entering \{student "t${CARET}3"\} and
